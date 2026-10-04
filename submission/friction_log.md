@@ -1,0 +1,17 @@
+# RecallGuard friction log
+
+Record issues that happened, not hypothetical risks. Add the date, observed behavior, workaround, and a concrete suggestion for the tool/API owner. Entries below are grounded in repo notes, the current Mac verification, and the user’s handoff context; revise any user-reported details before attaching this log publicly.
+
+| Date | Task / steps | Expected | Actual | Severity | Workaround | Actionable suggestion |
+|---|---|---|---|---|---|---|
+| 2026-09-27 | Start the local UI and MCP HTTP servers, then run the Mac transport check. | Bind to localhost and complete an HTTP round trip. | The sandbox denied local port binding/termination at first; the transport could not be checked until the run was allowed through the host. | High | Started both local servers with the required host permission and reran the full HTTP gate successfully. | Make localhost bind/proxy restrictions visible in the setup path and give a clear permission error before a developer reaches the test step. |
+| 2026-09-27 | Run `test_mcp.py` after freezing the lifecycle API. | Test the current 13-tool contract. | The file still asserted the obsolete contract and failed with expectations that no longer described the server. | Medium | Rewrote it to check the current contract, lifecycle paths, event feed, guards, and renamed remedy lookup. | Keep contract tests tied to the current tool list and clearly retire old assertions when an API is intentionally replaced. |
+| 2026-09-27 | Look up seeded Insignia air fryer model NS-AF5DSS2 in live CPSC data. | Find recall details that can identify whether the specific household unit is affected. | Recall #24159 returned a LIKELY model match, but no serial list. CPSC search/returned fields also needed verification against live data. | High | Show the model match and missing serial; do not convert LIKELY into a confirmed serial match. | Document searchable fields, pagination, and field completeness in the API examples; expose when serial coverage is absent. |
+| 2026-09-27 | Submit verification for recall #24159. | Use CPSC data to corroborate the unit’s serial. | CPSC had no serial-level evidence for this recall; the workflow can record a user’s rating-label attestation, but that is not independent serial verification. | High | Keep the distinction explicit and preserve the terminal insufficient-evidence path when the label cannot be checked. | Provide structured model/serial coverage metadata on recall records where available. |
+| 2026-09-27 | Configure Boto3 and run one live Bedrock Converse call. | Resolve an approved AWS profile, region, and model ID; return an explanation and measured latency. | No usable AWS profile or credentials, region, or model ID is configured on this Mac. No inference or latency measurement has occurred. | Blocker | Keep the explainer optional and test errors with a mocked client; the UI displays configuration guidance without changing the case. | Show the required profile, region, model access, and permission checks before the first inference call. |
+
+## Notes before publication
+
+- The sandbox issue is from the local development/test environment, not a user-facing RecallGuard failure.
+- The AWS entry is currently a setup blocker, not a failed Bedrock response. Add the real response and measured latency only after a live call succeeds.
+- Keep account IDs, SSO URLs, profile contents, credentials, and tokens out of the public log.

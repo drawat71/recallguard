@@ -1,0 +1,2 @@
+# Optional: install only to enable the user-requested Bedrock explanation button.
+boto3>=1.40,<2

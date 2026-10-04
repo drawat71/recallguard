@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+cases.json
+work/
+*.zip
+.DS_Store
+.env
+.env.*
+!.env.example
+submission/live_bedrock_result.json
