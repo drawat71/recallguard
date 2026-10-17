@@ -5,7 +5,7 @@ Current official deadline: **October 23, 2026 at 12:00 p.m. PDT**. Keep October 
 | Requirement | Status | Next step |
 |---|---|---|
 | Alexa+ track: working MCP server over Streamable HTTP | Verified on Mac; full repo gate passed | Keep the final test output and current setup instructions with the repo. |
-| Working project and setup instructions in a GitHub repository | Not ready in this workspace; extracted source is not a Git repo and no GitHub URL is available here | Create/publish the judging repo with all assets and run instructions. Public repos need an open-source license; private repos require the listed reviewers and Devpost testing account as collaborators. |
+| Working project and setup instructions in a GitHub repository | Private repository: https://github.com/drawat71/recallguard | Before submission, grant the required reviewers access or make the repository public with an open-source license. |
 | English project description | Draft ready | Finalize against actual completed Bedrock status and add repository/video links. |
 | Demo video, less than 3 minutes, publicly visible on YouTube or Vimeo | Not recorded | Use the 2:55 script, record the actual UI, and upload only after reviewing the rules below. |
 | Product feedback for every tool/API/SDK | Draft ready | Complete the AWS section after the live inference; submit what worked, what needs work, onboarding, and whether you would use it again. |

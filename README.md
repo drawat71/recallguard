@@ -34,6 +34,13 @@ The Bedrock button makes one bounded explanation request only when configured an
 
 The [submission](submission/) folder contains the demo script, product feedback and friction-log drafts, judge Q&A, and architecture / real-versus-simulated slides. The current demo flow targets 2:55. Review the current hackathon rules before publishing a repository or video.
 
-## Local repository status
+## Repository access
 
-This Git repository is local to this Mac and has no remote configured. It does not make the project available from other machines yet. A GitHub remote can be added later after choosing visibility and a license; generated case data, local environments, preview images, and packaging ZIPs are excluded by `.gitignore`.
+The repository is private at [drawat71/recallguard](https://github.com/drawat71/recallguard). On another machine, sign in to GitHub with an account that has access, then clone it:
+
+```sh
+gh repo clone drawat71/recallguard
+cd recallguard
+```
+
+Follow the local setup above to create a fresh virtual environment on that machine. Generated case data, local environments, preview images, and packaging ZIPs are excluded by `.gitignore`.
