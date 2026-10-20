@@ -1,1 +1,100 @@
-IyBDb2RleCB3b3JrIHBhY2thZ2U6IFJlY2FsbEd1YXJkIGRlbW8gdmlkZW8KCiMjIE9iamVjdGl2ZQoKUHJvZHVjZSB0aGUgc3VibWlzc2lvbiBkZW1vIHZpZGVvIGJ5IHJlY29yZGluZyB0aGUgKipyZWFsIFVJKiogZHJpdmVuIHRocm91Z2gKdGhlICoqcmVhbCBiYWNrZW5kKiosIHRpbWVkIHRvIHRoZSBleGlzdGluZyBzY3JpcHQuIERlbGl2ZXIgdHdvIGN1dHM6CmEgc2lsZW50IHRpbWVkIGN1dCAoZm9yIGEgaHVtYW4gdm9pY2VvdmVyKSBhbmQgYSBUVFMtbmFycmF0ZWQgY3V0LgoKVGFyZ2V0ICoqMjo0NeKAkzI6NTUqKiwgaGFyZCBjYXAgKip1bmRlciAzOjAwKiogKG9yZ2FuaXplciBydWxlKS4KCiMjIElucHV0cyAocmVhZCBmaXJzdCwgZG8gbm90IG1vZGlmeSkKCi0gYHN1Ym1pc3Npb24vZGVtb19zY3JpcHQubWRgIOKAlCB0aGUgYmVhdHMsIHRpbWluZ3MsIGFuZCBleGFjdCBuYXJyYXRpb24gbGluZXMuCiAgVGhpcyBwYWNrYWdlIGV4ZWN1dGVzIHRoYXQgc2NyaXB0OyBpdCBkb2VzIG5vdCByZXdyaXRlIGl0LgotIGBzdWJtaXNzaW9uL3N1Ym1pc3Npb25fY2hlY2tsaXN0Lm1kYCDigJQgdGhlIHZpZGVvIHJ1bGVzIChwdWJsaWMgWW91VHViZS9WaW1lbywKICBFbmdsaXNoLCA8IDMgbWluLCBubyB0aGlyZC1wYXJ0eSBtZWRpYSB3aXRob3V0IHBlcm1pc3Npb24pLgoKIyMgU2V0dXAKCmBgYGJhc2gKIyBmcm9tIHRoZSByZXBvIHJvb3QsIGZyZXNoIHZlbnYgYWxyZWFkeSBpbnN0YWxsZWQKUkVDQUxMR1VBUkRfRlJPWkVOPTEgcHl0aG9uIHVpL3J1bi5weQojIGJhY2tlbmQgb24gOjgwMDAsIFVJIG9uIGh0dHA6Ly8xMjcuMC4wLjE6MzAwMApgYGAKCi0gKipBbHdheXMgcmVjb3JkIHdpdGggYFJFQ0FMTEdVQVJEX0ZST1pFTj0xYC4qKiBUaGUgYmFja2VuZCB0aGVuIHNlcnZlcyB0aGUKICBjYXB0dXJlZCBDUFNDIHNuYXBzaG90IChyZWNhbGwgIzI0MTU5KSBpbnN0ZWFkIG9mIGxpdmUgZGF0YSDigJQgZGV0ZXJtaW5pc3RpYwogIHRha2VzLCBubyBtaWQtcmVjb3JkaW5nIGxvb2t1cCBmbGFraW5lc3MuIFRoZSBzY3JpcHQgZXhwbGljaXRseSBwZXJtaXRzCiAgcmV1c2luZyB0aGUgc2FtZSBDUFNDIHJlc3VsdCB0aHJvdWdoIG9uZSBydW4uCi0gRnJlc2hseSByZXN0YXJ0IGJvdGggc2VydmVycyBiZWZvcmUgcmVjb3JkaW5nIChzY3JpcHQgcHJlZmxpZ2h0KS4KLSBDb25maXJtIGJlZm9yZSB0aGUgdGFrZTogVUkgc2hvd3MgYE1DUCBjb25uZWN0ZWRgLCBzaW11bGF0ZWQgZGV2aWNlIGlzIE9OLgotIENsb3NlIG5vdGlmaWNhdGlvbnMgYW5kIHVucmVsYXRlZCB0YWJzLiBEZXNrdG9wIGJyb3dzZXIgc2l6ZSwgMTA4MHAgY2FwdHVyZS4KCiMjIFBhdGhzIHRvIHJlY29yZCAoaW4gc2NyaXB0IG9yZGVyKQoKMS4gKipIYXBweSBwYXRoKiog4oCUIENoZWNrIG15IGFpciBmcnllciDihpIgTElLRUxZICsgQ1BTQyAjMjQxNTkg4oaSIFZFUklGWUlORyB3aXRoCiAgIHRoZSBtaXNzaW5nLXNlcmlhbCBjYXJkIOKGkiBhdHRlc3QgdGhlIHBoeXNpY2FsIGxhYmVsIOKGkiByZXZpZXcgdGhlIGV4YWN0CiAgIHBlbmRpbmcgYWN0aW9uIOKGkiBhcHByb3ZlIGBkaXNhYmxlX2tpdGNoZW4tYWlyLWZyeWVyYCDihpIgZGV2aWNlCiAgIE9OIOKGkiBPRkYg4oaSIHZlcmlmaWVkIOKGkiByZW1lZHkgZHJhZnQg4oaSIFRSQUNLSU5HLgoyLiAqKkluc3VmZmljaWVudCBldmlkZW5jZSoqIOKAlCBmcmVzaCBjYXNlIOKGkiAiSSBjYW4ndCB2ZXJpZnkgdGhlIGxhYmVsIiDihpIKICAgSU5TVUZGSUNJRU5UX0VWSURFTkNFLiBEZXZpY2Ugc3RheXMgT047ICoqbm8gYXBwcm92YWwgY29udHJvbCBleGlzdHMqKi4KMy4gKipOby1tYXRjaCoqIOKAlCB0aGUgVUkncyBuby1tYXRjaCBkZW1vIHBhdGgg4oaSIGNsZWFuIHN0YW5kLWRvd24gd2l0aCBpdHMKICAgZXZpZGVuY2UgdHJhaWwuCjQuICoqRGVueSoqIOKAlCBmcmVzaCBsaWtlbHkgY2FzZSDihpIgYXR0ZXN0IOKGkiAqKmRlbnkqKiB0aGUgZXhhY3QgYWN0aW9uIOKGkgogICBkZW5pYWwgcmVjb3JkZWQsIGRldmljZSBub3Qgc3dpdGNoZWQuCjUuICoqQ2xvc2UqKiDigJQgZW5kIG9uIHRoZSBldmVudCB0cmFpbCB3aXRoIHRoZSByZWFsL3NpbXVsYXRlZCBsYWJlbHMgdmlzaWJsZS4KCioqQmVkcm9jayBiZWF0ICgwOjQ44oCTMTowMCk6IFNLSVAgSVQqKiB1bmxlc3MgYSBsaXZlIEJlZHJvY2sgcHJvZmlsZS9yZWdpb24vbW9kZWwKaXMgYWxyZWFkeSBjb25maWd1cmVkIG9uIHRoaXMgbWFjaGluZS4gRGVmYXVsdDogaG9sZCBvbiB0aGUgbWlzc2luZy1ldmlkZW5jZQpjYXJkIGZvciB0aGF0IGJlYXQsIGV4YWN0bHkgYXMgdGhlIHNjcmlwdCdzIGZhbGxiYWNrIHNwZWNpZmllcy4gTmV2ZXIgcmVuZGVyCm9yIGltcGx5IGEgbW9ja2VkIEJlZHJvY2sgcmVzcG9uc2UuCgojIyBSZWNvcmRpbmcgbWV0aG9kCgotIERyaXZlIHRoZSByZWFsIFVJIGluIGEgcmVhbCBicm93c2VyIChlLmcuIFBsYXl3cmlnaHQgKyBDaHJvbWl1bSkgYW5kIGNhcHR1cmUKICB2aWRlby4gQ2xpY2sgdGhlIGFjdHVhbCBjb250cm9sczsgdHlwZSBub3RoaW5nIGZha2UuCi0gQWR2YW5jZSBvbiAqKlVJIHN0YXRlLCBub3QgZml4ZWQgc2xlZXBzKio6IHdhaXQgdW50aWwgdGhlIGV4cGVjdGVkIHN0YXRlIHRleHQKICAvIHN0ZXBwZXIgcG9zaXRpb24gaXMgdmlzaWJsZSBiZWZvcmUgdGhlIG5leHQgYWN0aW9uLCB0aGVuIGhvbGQgZWFjaCBiZWF0CiAgZm9yIGl0cyBzY3JpcHRlZCBkdXJhdGlvbiBzbyBuYXJyYXRpb24gZml0cy4KLSAqKk5ldmVyIGN1dCBvdXQgYSBzdGF0ZSB0cmFuc2l0aW9uKiogKHNjcmlwdCBydWxlKS4gSWYgYSBiZWF0IHJ1bnMgbG9uZywKICBleHRlbmQgYSBob2xkLCBub3QgYSBjdXQuCi0gTm8gYm9hcmQvcHVjayBmb290YWdlLiBObyBtdXNpYywgbm8gc3RvY2sgbWVkaWEsIG5vIHRoaXJkLXBhcnR5IGFzc2V0cy4KCiMjIE5hcnJhdGlvbgoKLSAqKkN1dCBBIChzaWxlbnQpOioqIHZpZGVvIG9ubHksIGJlYXRzIHRpbWVkIHRvIHRoZSBuYXJyYXRpb24gbGluZXMgaW4gdGhlCiAgc2NyaXB0LiBUaGlzIGlzIHRoZSBjdXQgRGlzaCBjYW4gdm9pY2Ugb3ZlciBoaW1zZWxmLgotICoqQ3V0IEIgKFRUUyk6Kiogc2FtZSB2aWRlbyB3aXRoIG5hcnJhdGlvbiBnZW5lcmF0ZWQgZnJvbSB0aGUgc2NyaXB0J3MgZXhhY3QKICBsaW5lcyAoZS5nLiBtYWNPUyBgc2F5YCDihpIgYXVkaW8gdHJhY2ssIG11eGVkIHdpdGggZmZtcGVnKSwgYWxpZ25lZCB0byB0aGUKICBiZWF0IHRhYmxlLiBEbyBub3QgcGFyYXBocmFzZSB0aGUgbGluZXMuCi0gUmVwb3J0IGJvdGggZHVyYXRpb25zIChgZmZwcm9iZWApLiBJZiBDdXQgQidzIFRUUyB0aW1pbmcgZHJpZnRzID41cyBmcm9tIGEKICBiZWF0IGJvdW5kYXJ5LCBhZGp1c3QgaG9sZCBsZW5ndGhzIGFuZCByZS1yZW5kZXIgcmF0aGVyIHRoYW4gc3BlZWRpbmcgc3BlZWNoLgoKIyMgTm9uLWdvYWxzCgotIE5vIGNoYW5nZXMgdG8gdGhlIGJhY2tlbmQsIGB1aS9gLCB0aGUgZnJvemVuIGNvbnRyYWN0cywgb3IKICBgc3VibWlzc2lvbi9kZW1vX3NjcmlwdC5tZGAuIFJlY29yZGluZyB0b29saW5nIGxpdmVzIGluIGEgbmV3IGBkZW1vL2AgZGlyLgotIE5vIFlvdVR1YmUvVmltZW8gdXBsb2FkIOKAlCBEaXNoIHVwbG9hZHMgYWZ0ZXIgcmV2aWV3LgotIE5vIEJlZHJvY2sgbGl2ZSBjYWxsIG9yIEFXUyBzZXR1cCAoc2VwYXJhdGUgZGVjaXNpb24pLgotIE5vIHN0YWdpbmc6IGV2ZXJ5IHdvcmtmbG93IGV2ZW50IG9uIHNjcmVlbiBtdXN0IGNvbWUgZnJvbSB0aGUgYmFja2VuZC4KCiMjIEZpbGVzIHlvdSBtYXkgdG91Y2gKCi0gTmV3IGRpcmVjdG9yeSBgZGVtby9gIG9ubHkgKHJlY29yZGluZyBzY3JpcHQsIG91dHB1dHMsIHJ1biBsb2cpLgoKIyMgQWNjZXB0YW5jZSBjcml0ZXJpYQoKMS4gYGRlbW8vb3V0cHV0L3JlY2FsbGd1YXJkLWRlbW8tc2lsZW50Lm1wNGAgYW5kCiAgIGBkZW1vL291dHB1dC9yZWNhbGxndWFyZC1kZW1vLW5hcnJhdGVkLm1wNGAgZXhpc3Q7IGVhY2ggaXMgMjo0NeKAkzI6NTUsCiAgIDEwODBwLCBwbGF5YWJsZSBzdGFydCB0byBmaW5pc2guCjIuIEFsbCBmb3VyIHBhdGhzIGFwcGVhciBpbiBzY3JpcHQgb3JkZXIgd2l0aCAqKmV2ZXJ5Kiogc3RhdGUgdHJhbnNpdGlvbgogICB2aXNpYmxlIOKAlCBpbmNsdWRpbmcgdGhlIHZlcmlmaWVkIE9OIOKGkiBPRkYgcmVhZC1iYWNrIGFuZCBUUkFDS0lORy4KMy4gVGhlIGFwcHJvdmFsIGJlYXQgdmlzaWJseSBzaG93cyBhcHByb3ZpbmcgdGhlIGV4YWN0IHBlbmRpbmcgYWN0aW9uCiAgIGBkaXNhYmxlX2tpdGNoZW4tYWlyLWZyeWVyYCDigJQgbm90IGEgZ2VuZXJpYyB5ZXMuCjQuIFN0YW5kLWRvd24gcGF0aHMgKGluc3VmZmljaWVudCBldmlkZW5jZSwgbm8tbWF0Y2gsIGRlbnkpIHNob3cgbm8gYXBwcm92YWwKICAgYmVpbmcgdGFrZW4gYW5kIHRoZSBkZXZpY2Ugc3RhdGUgdW5jaGFuZ2VkLgo1LiBSdW4gbG9nIGluIGBkZW1vL2AgcmVjb3JkczogZnJvemVuIG1vZGUgb24sIHNlcnZlcnMgZnJlc2hseSByZXN0YXJ0ZWQsCiAgIHByZWZsaWdodCBjaGVja3MgcGFzc2VkLCBhbmQgdGhlIHRha2UncyBwYXRoIHRpbWluZ3MuCjYuIEJhY2tlbmQgYW5kIFVJIHRlc3QgZ2F0ZXMgc3RpbGwgcGFzcywgdW50b3VjaGVkOgogICBgLnZlbnYvYmluL3B5dGhvbiB1aS90ZXN0cy9ydW5fYWxsLnB5YCBleGl0cyAwLgo=
+# Codex work package: RecallGuard demo video
+
+## Objective
+
+Produce the submission demo video by recording the **real UI** driven through
+the **real backend**, timed to the existing script. Deliver two cuts:
+a silent timed cut (for a human voiceover) and a TTS-narrated cut.
+
+Target **2:45–2:55**, hard cap **under 3:00** (organizer rule).
+
+## Inputs (read first, do not modify)
+
+- `submission/demo_script.md` — the beats, timings, and exact narration lines.
+  This package executes that script; it does not rewrite it.
+- `submission/submission_checklist.md` — the video rules (public YouTube/Vimeo,
+  English, < 3 min, no third-party media without permission).
+
+## Setup
+
+```bash
+# from the repo root, fresh venv already installed
+RECALLGUARD_FROZEN=1 python ui/run.py
+# backend on :8000, UI on http://127.0.0.1:3000
+```
+
+- **Always record with `RECALLGUARD_FROZEN=1`.** The backend then serves the
+  captured CPSC snapshot (recall #24159) instead of live data — deterministic
+  takes, no mid-recording lookup flakiness. The script explicitly permits
+  reusing the same CPSC result through one run.
+- Freshly restart both servers before recording (script preflight).
+- Confirm before the take: UI shows `MCP connected`, simulated device is ON.
+- Close notifications and unrelated tabs. Desktop browser size, 1080p capture.
+
+## Paths to record (in script order)
+
+1. **Happy path** — Check my air fryer → LIKELY + CPSC #24159 → VERIFYING with
+   the missing-serial card → attest the physical label → review the exact
+   pending action → approve `disable_kitchen-air-fryer` → device
+   ON → OFF → verified → remedy draft → TRACKING.
+2. **Insufficient evidence** — fresh case → "I can't verify the label" →
+   INSUFFICIENT_EVIDENCE. Device stays ON; **no approval control exists**.
+3. **No-match** — the UI's no-match demo path → clean stand-down with its
+   evidence trail.
+4. **Deny** — fresh likely case → attest → **deny** the exact action →
+   denial recorded, device not switched.
+5. **Close** — end on the event trail with the real/simulated labels visible.
+
+**Bedrock beat (0:48–1:00): SKIP IT** unless a live Bedrock profile/region/model
+is already configured on this machine. Default: hold on the missing-evidence
+card for that beat, exactly as the script's fallback specifies. Never render
+or imply a mocked Bedrock response.
+
+## Recording method
+
+- Drive the real UI in a real browser (e.g. Playwright + Chromium) and capture
+  video. Click the actual controls; type nothing fake.
+- Advance on **UI state, not fixed sleeps**: wait until the expected state text
+  / stepper position is visible before the next action, then hold each beat
+  for its scripted duration so narration fits.
+- **Never cut out a state transition** (script rule). If a beat runs long,
+  extend a hold, not a cut.
+- No board/puck footage. No music, no stock media, no third-party assets.
+
+## Narration
+
+- **Cut A (silent):** video only, beats timed to the narration lines in the
+  script. This is the cut Dish can voice over himself.
+- **Cut B (TTS):** same video with narration generated from the script's exact
+  lines (e.g. macOS `say` → audio track, muxed with ffmpeg), aligned to the
+  beat table. Do not paraphrase the lines.
+- Report both durations (`ffprobe`). If Cut B's TTS timing drifts >5s from a
+  beat boundary, adjust hold lengths and re-render rather than speeding speech.
+
+## Non-goals
+
+- No changes to the backend, `ui/`, the frozen contracts, or
+  `submission/demo_script.md`. Recording tooling lives in a new `demo/` dir.
+- No YouTube/Vimeo upload — Dish uploads after review.
+- No Bedrock live call or AWS setup (separate decision).
+- No staging: every workflow event on screen must come from the backend.
+
+## Files you may touch
+
+- New directory `demo/` only (recording script, outputs, run log).
+
+## Acceptance criteria
+
+1. `demo/output/recallguard-demo-silent.mp4` and
+   `demo/output/recallguard-demo-narrated.mp4` exist; each is 2:45–2:55,
+   1080p, playable start to finish.
+2. All four paths appear in script order with **every** state transition
+   visible — including the verified ON → OFF read-back and TRACKING.
+3. The approval beat visibly shows approving the exact pending action
+   `disable_kitchen-air-fryer` — not a generic yes.
+4. Stand-down paths (insufficient evidence, no-match, deny) show no approval
+   being taken and the device state unchanged.
+5. Run log in `demo/` records: frozen mode on, servers freshly restarted,
+   preflight checks passed, and the take's path timings.
+6. Backend and UI test gates still pass, untouched:
+   `.venv/bin/python ui/tests/run_all.py` exits 0.
