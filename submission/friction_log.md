@@ -15,3 +15,5 @@ Record issues that happened, not hypothetical risks. Add the date, observed beha
 - The sandbox issue is from the local development/test environment, not a user-facing RecallGuard failure.
 - The AWS entry is currently a setup blocker, not a failed Bedrock response. Add the real response and measured latency only after a live call succeeds.
 - Keep account IDs, SSO URLs, profile contents, credentials, and tokens out of the public log.
+
+- Task: add one live Bedrock call for the AWS Builder mini challenge. Steps: requested a quota increase, opened a Nova Micro case. Expected: a small demo-scale grant. Actual: denied overnight Oct 22, case closed. Severity: high, removed the mini-challenge path. Workaround: frozen fixtures (RECALLGUARD_FROZEN=1), recorded runs replayed deterministically. Suggestion: a small sandbox Bedrock quota for hackathon demos.
